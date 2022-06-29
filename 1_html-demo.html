@@ -15,11 +15,11 @@
     <h3>HELLO HTML</h3>
     <hr>
     <h4> define link </h4>
-    <a href="https://www.google.com"> Google </a>
+    <a href="https://www.google.com" type="_blank"> Google </a>
     <hr>
 
     <h4>define image</h4>
-    <img src= "images/nature.jpg"/>
+    <img src= "images/nature.jpg" width="700" height="300"/>
     <hr>
      <h3>Define Paragraf</h3>
      <p> my name is hamed karimi im</p> <br/> <p>Im..learning java in lexicon... </p> 
@@ -45,24 +45,65 @@
 
      <br/>
      <h3>define table</h3>
-     <table>
+     <table border="2">
         <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Course</th>
+            <th colspan="3"> Actions</th>
         </tr>
     
         <tr>
             <td>1</td>
             <td>Hamed</td>
-            <td>c++</td>
+            <td>Java</td>
+            <td><button type="button">add</button></td>
+            <td><button type="button">delete</button></td>
+            <td><button type="button">details</button></td>
         </tr>
         <tr>
             <td>2</td>
             <td>cyrus</td>
             <td>Java</td>
+            <td><button type=" button">add</button></td>
+            <td><button type="button">delete</button></td>
+            <td><button type="button">details</button></td>
         </tr>
      </table>
+
+     <br/>
+     <h3>define image</h3>
+     <img src="images/nature1.jpg" width="600" height="300" title="nature1"/>
+     <hr>
+     <h3>Form Coding</h3>
+     <form>
+        <label>FirstName</label>
+        <input type="text" name="firstname"/>
+        <br/>
+        <label>Lastname</label>
+        <input type="text" name="lastname"/>
+        <br/>
+        <lable>UserName</lable>
+        <input type="text" name="userName"/> 
+        <br/>
+        <lable>Password</lable>
+        <input type="password" name="password"/>
+        <br/>
+        <lable>Gender</lable>
+        <input type="radio" name="gender" value="male"/>
+        <lable>Male</lable>
+        <input type="radio" name="gender" value="female"/>
+        <lable>female</lable>
+        <br/>
+        <label>Course</label>
+        <select>
+            <option>Java</option>
+            <option>JS</option>
+            <option>python</option>
+        </select>
+        
+
+     </form>
 
 
     
